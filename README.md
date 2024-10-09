@@ -46,3 +46,5 @@ python main.py
 Red: Capacity less than 70.000
 Beige: Capacity between 70.000 and 80.000
 Dark Red: Capacity 80.000 and above
+
+## [Visit Live Site](https://stadium-mapping.onrender.com)
