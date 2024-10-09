@@ -1,0 +1,2241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_50aac412ac1734c5da2efdfcba132fc0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_50aac412ac1734c5da2efdfcba132fc0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_50aac412ac1734c5da2efdfcba132fc0 = L.map(
+                "map_50aac412ac1734c5da2efdfcba132fc0",
+                {
+                    center: [21.815394089921178, -25.460967627613343],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f003328520ee57f2dfdaa47c1ec60d48 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f003328520ee57f2dfdaa47c1ec60d48.addTo(map_50aac412ac1734c5da2efdfcba132fc0);
+        
+    
+            var feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_marker_2b1b4e022717ca91e56d30351e496268 = L.circleMarker(
+                [42.26587739240931, -83.7487275680813],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_810c1ea729a17da6a83fb29e39295f79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1439d2f2ba1321be9c2a5860f5e034cb = $(`<div id="html_1439d2f2ba1321be9c2a5860f5e034cb" style="width: 100.0%; height: 100.0%;">Michigan Stadium - 107601</div>`)[0];
+                popup_810c1ea729a17da6a83fb29e39295f79.setContent(html_1439d2f2ba1321be9c2a5860f5e034cb);
+            
+        
+
+        circle_marker_2b1b4e022717ca91e56d30351e496268.bindPopup(popup_810c1ea729a17da6a83fb29e39295f79)
+        ;
+
+        
+    
+    
+            var circle_marker_3717c8c122a234eac7c59c67e8daf835 = L.circleMarker(
+                [40.00166227187029, -83.01974783188459],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_e506fd86817ea15f799c9c19e7b4c96c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b2f21172c6d7297952589058164c164 = $(`<div id="html_9b2f21172c6d7297952589058164c164" style="width: 100.0%; height: 100.0%;">Ohio Stadium - 102780</div>`)[0];
+                popup_e506fd86817ea15f799c9c19e7b4c96c.setContent(html_9b2f21172c6d7297952589058164c164);
+            
+        
+
+        circle_marker_3717c8c122a234eac7c59c67e8daf835.bindPopup(popup_e506fd86817ea15f799c9c19e7b4c96c)
+        ;
+
+        
+    
+    
+            var circle_marker_0190fdddc6d9064a6fea4cc570614d7a = L.circleMarker(
+                [19.302968993700716, -99.15048044819692],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_0a5da8ecfa45ba517cfe65cd45c73d18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fccdb48a8ecf312dbcb8577bfe989a8f = $(`<div id="html_fccdb48a8ecf312dbcb8577bfe989a8f" style="width: 100.0%; height: 100.0%;">Estadio Azteca - 95500</div>`)[0];
+                popup_0a5da8ecfa45ba517cfe65cd45c73d18.setContent(html_fccdb48a8ecf312dbcb8577bfe989a8f);
+            
+        
+
+        circle_marker_0190fdddc6d9064a6fea4cc570614d7a.bindPopup(popup_0a5da8ecfa45ba517cfe65cd45c73d18)
+        ;
+
+        
+    
+    
+            var circle_marker_418e75a1c7557e1605a1a7ea9fe8ed7a = L.circleMarker(
+                [34.16132440106869, -118.16764184881129],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_334071d2cb8cb671c1ea1719290a848e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_713950dbea1d5ecd0768b0d447facb47 = $(`<div id="html_713950dbea1d5ecd0768b0d447facb47" style="width: 100.0%; height: 100.0%;">Rose Bowl Stadium - 92800</div>`)[0];
+                popup_334071d2cb8cb671c1ea1719290a848e.setContent(html_713950dbea1d5ecd0768b0d447facb47);
+            
+        
+
+        circle_marker_418e75a1c7557e1605a1a7ea9fe8ed7a.bindPopup(popup_334071d2cb8cb671c1ea1719290a848e)
+        ;
+
+        
+    
+    
+            var circle_marker_f607a1348981130b6d3323697d00cc1e = L.circleMarker(
+                [32.77959788858502, -96.75958293091456],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_d35e76ae0bfd6a926784b1d85967f604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92a28b34559983cbfe2661408c942ef4 = $(`<div id="html_92a28b34559983cbfe2661408c942ef4" style="width: 100.0%; height: 100.0%;">Cotton Bowl Stadium - 92100</div>`)[0];
+                popup_d35e76ae0bfd6a926784b1d85967f604.setContent(html_92a28b34559983cbfe2661408c942ef4);
+            
+        
+
+        circle_marker_f607a1348981130b6d3323697d00cc1e.bindPopup(popup_d35e76ae0bfd6a926784b1d85967f604)
+        ;
+
+        
+    
+    
+            var circle_marker_e082691d2783db0af31efcda145d3c27 = L.circleMarker(
+                [40.81353544196267, -74.07437595512495],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_860c06c54a72de6536e500509b293f93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e7832d36a3a8652642555da0e34843 = $(`<div id="html_51e7832d36a3a8652642555da0e34843" style="width: 100.0%; height: 100.0%;">MetLife Stadium - 82500</div>`)[0];
+                popup_860c06c54a72de6536e500509b293f93.setContent(html_51e7832d36a3a8652642555da0e34843);
+            
+        
+
+        circle_marker_e082691d2783db0af31efcda145d3c27.bindPopup(popup_860c06c54a72de6536e500509b293f93)
+        ;
+
+        
+    
+    
+            var circle_marker_8536ff26cc313bba1a97816b11acd67a = L.circleMarker(
+                [44.50132124194474, -88.06221381009468],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_21dd59819f8dc487a3a2fc9dfad1d61e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_370123ee57afe21e31eac1c105449b48 = $(`<div id="html_370123ee57afe21e31eac1c105449b48" style="width: 100.0%; height: 100.0%;">Lambeau Field - 81441</div>`)[0];
+                popup_21dd59819f8dc487a3a2fc9dfad1d61e.setContent(html_370123ee57afe21e31eac1c105449b48);
+            
+        
+
+        circle_marker_8536ff26cc313bba1a97816b11acd67a.bindPopup(popup_21dd59819f8dc487a3a2fc9dfad1d61e)
+        ;
+
+        
+    
+    
+            var circle_marker_ad81a03059af4e6dbe3aba93649a883f = L.circleMarker(
+                [32.747978552853446, -97.0929015159014],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_28f97b449166bf77b0e4d3606591226f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc09861ab5c5b088c31c6d65d132684 = $(`<div id="html_5dc09861ab5c5b088c31c6d65d132684" style="width: 100.0%; height: 100.0%;">AT&T Stadium - 80000</div>`)[0];
+                popup_28f97b449166bf77b0e4d3606591226f.setContent(html_5dc09861ab5c5b088c31c6d65d132684);
+            
+        
+
+        circle_marker_ad81a03059af4e6dbe3aba93649a883f.bindPopup(popup_28f97b449166bf77b0e4d3606591226f)
+        ;
+
+        
+    
+    
+            var circle_marker_d2f946280d35cf90a5996c80d5f03a5a = L.circleMarker(
+                [34.01403028225288, -118.2879132991512],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_7d91830d2b87d776d0ec9d7e51360065 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73c94ec7151627fd90808f7c43e4f02e = $(`<div id="html_73c94ec7151627fd90808f7c43e4f02e" style="width: 100.0%; height: 100.0%;">Los Angeles Memorial Coliseum - 78467</div>`)[0];
+                popup_7d91830d2b87d776d0ec9d7e51360065.setContent(html_73c94ec7151627fd90808f7c43e4f02e);
+            
+        
+
+        circle_marker_d2f946280d35cf90a5996c80d5f03a5a.bindPopup(popup_7d91830d2b87d776d0ec9d7e51360065)
+        ;
+
+        
+    
+    
+            var circle_marker_822f3a7f316a60cd95f3d6a7979bd2ac = L.circleMarker(
+                [29.95116231972669, -90.08109487098028],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_8977719342cf572740e989826ed2c98d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0fe05cf3a258f5ca2e09aed2b4ff78a = $(`<div id="html_d0fe05cf3a258f5ca2e09aed2b4ff78a" style="width: 100.0%; height: 100.0%;">Caesar's Superdome - 76468</div>`)[0];
+                popup_8977719342cf572740e989826ed2c98d.setContent(html_d0fe05cf3a258f5ca2e09aed2b4ff78a);
+            
+        
+
+        circle_marker_822f3a7f316a60cd95f3d6a7979bd2ac.bindPopup(popup_8977719342cf572740e989826ed2c98d)
+        ;
+
+        
+    
+    
+            var circle_marker_26e869223745bce941372241dcf67745 = L.circleMarker(
+                [39.0489233691895, -94.48401327177191],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_674b91dfaf464ea653de14ed476cf1ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42589ed92685ab008e4d9a86210cd866 = $(`<div id="html_42589ed92685ab008e4d9a86210cd866" style="width: 100.0%; height: 100.0%;">Arrowhead Stadium - 76412</div>`)[0];
+                popup_674b91dfaf464ea653de14ed476cf1ff.setContent(html_42589ed92685ab008e4d9a86210cd866);
+            
+        
+
+        circle_marker_26e869223745bce941372241dcf67745.bindPopup(popup_674b91dfaf464ea653de14ed476cf1ff)
+        ;
+
+        
+    
+    
+            var circle_marker_9af32a366147d149daaef46ed6d9d32c = L.circleMarker(
+                [39.74391424852048, -105.02012012885672],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_fe8a96fc702a264670162031e67527db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26736c5e9a53439bb78b4a76768335fc = $(`<div id="html_26736c5e9a53439bb78b4a76768335fc" style="width: 100.0%; height: 100.0%;">Empower Field - 76125</div>`)[0];
+                popup_fe8a96fc702a264670162031e67527db.setContent(html_26736c5e9a53439bb78b4a76768335fc);
+            
+        
+
+        circle_marker_9af32a366147d149daaef46ed6d9d32c.bindPopup(popup_fe8a96fc702a264670162031e67527db)
+        ;
+
+        
+    
+    
+            var circle_marker_7b2c67d3f6c34fb49da581d93d8955f1 = L.circleMarker(
+                [35.22582332113948, -80.8528362540008],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_c1fc20c2b50385373c35841e828ad3d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_809a063521cb78b0a80631f0edf386c5 = $(`<div id="html_809a063521cb78b0a80631f0edf386c5" style="width: 100.0%; height: 100.0%;">Bank of America Stadium - 74867</div>`)[0];
+                popup_c1fc20c2b50385373c35841e828ad3d8.setContent(html_809a063521cb78b0a80631f0edf386c5);
+            
+        
+
+        circle_marker_7b2c67d3f6c34fb49da581d93d8955f1.bindPopup(popup_c1fc20c2b50385373c35841e828ad3d8)
+        ;
+
+        
+    
+    
+            var circle_marker_c52556cb4aa82ba68e7287ea11765070 = L.circleMarker(
+                [41.50604915756558, -81.69958938763293],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_e5369433cc734547f6bfab054e72d167 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01df83ab577ed36bcc5572960c4836cd = $(`<div id="html_01df83ab577ed36bcc5572960c4836cd" style="width: 100.0%; height: 100.0%;">FirstEnergy Stadium - 73200</div>`)[0];
+                popup_e5369433cc734547f6bfab054e72d167.setContent(html_01df83ab577ed36bcc5572960c4836cd);
+            
+        
+
+        circle_marker_c52556cb4aa82ba68e7287ea11765070.bindPopup(popup_e5369433cc734547f6bfab054e72d167)
+        ;
+
+        
+    
+    
+            var circle_marker_abf11cf416f63b9fa45cc44fe88368ef = L.circleMarker(
+                [29.68487103304363, -95.41093270558952],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_89314a607ac4ff6e17e77c8631c5eee9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa82aab8946238b774fe05495b2688e1 = $(`<div id="html_aa82aab8946238b774fe05495b2688e1" style="width: 100.0%; height: 100.0%;">NRG Stadium - 72220</div>`)[0];
+                popup_89314a607ac4ff6e17e77c8631c5eee9.setContent(html_aa82aab8946238b774fe05495b2688e1);
+            
+        
+
+        circle_marker_abf11cf416f63b9fa45cc44fe88368ef.bindPopup(popup_89314a607ac4ff6e17e77c8631c5eee9)
+        ;
+
+        
+    
+    
+            var circle_marker_377211074b6cc20d8733a31e1fa06973 = L.circleMarker(
+                [39.27795482287059, -76.62266838781387],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_82542dea9ae366427ab7c07b7edef35d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd8e260195de0612db7d34c8fb241e8b = $(`<div id="html_bd8e260195de0612db7d34c8fb241e8b" style="width: 100.0%; height: 100.0%;">M&T Bank Stadium - 71008</div>`)[0];
+                popup_82542dea9ae366427ab7c07b7edef35d.setContent(html_bd8e260195de0612db7d34c8fb241e8b);
+            
+        
+
+        circle_marker_377211074b6cc20d8733a31e1fa06973.bindPopup(popup_82542dea9ae366427ab7c07b7edef35d)
+        ;
+
+        
+    
+    
+            var circle_marker_334d7ab5b08a6aa4c2a7aeb56537d0c9 = L.circleMarker(
+                [33.75555932544648, -84.40086032377955],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_aee6c05b307fe666e395956af4f002a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30ac83eff1b3d899f976f64cae89f3b3 = $(`<div id="html_30ac83eff1b3d899f976f64cae89f3b3" style="width: 100.0%; height: 100.0%;">Mercedes-Benz Stadium - 71000</div>`)[0];
+                popup_aee6c05b307fe666e395956af4f002a2.setContent(html_30ac83eff1b3d899f976f64cae89f3b3);
+            
+        
+
+        circle_marker_334d7ab5b08a6aa4c2a7aeb56537d0c9.bindPopup(popup_aee6c05b307fe666e395956af4f002a2)
+        ;
+
+        
+    
+    
+            var circle_marker_da39d97acc9705c19c60a42d7dafb21e = L.circleMarker(
+                [33.95333058723931, -118.33897263117062],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_210f726b1e5f1377fd84f67eaedae999 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91ca0b3ede33527481d77bdc6c2450f7 = $(`<div id="html_91ca0b3ede33527481d77bdc6c2450f7" style="width: 100.0%; height: 100.0%;">SoFi Stadium - 70000</div>`)[0];
+                popup_210f726b1e5f1377fd84f67eaedae999.setContent(html_91ca0b3ede33527481d77bdc6c2450f7);
+            
+        
+
+        circle_marker_da39d97acc9705c19c60a42d7dafb21e.bindPopup(popup_210f726b1e5f1377fd84f67eaedae999)
+        ;
+
+        
+    
+    
+            var circle_marker_3ccf7100acb8e36d3c295c2da5627473 = L.circleMarker(
+                [47.5950551978674, -122.33169458290855],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_f852575cf6471a615840fbf2cef682b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb81b5db52b5820b08e47c8792634b6b = $(`<div id="html_fb81b5db52b5820b08e47c8792634b6b" style="width: 100.0%; height: 100.0%;">Lumen Field - 69000</div>`)[0];
+                popup_f852575cf6471a615840fbf2cef682b9.setContent(html_fb81b5db52b5820b08e47c8792634b6b);
+            
+        
+
+        circle_marker_3ccf7100acb8e36d3c295c2da5627473.bindPopup(popup_f852575cf6471a615840fbf2cef682b9)
+        ;
+
+        
+    
+    
+            var circle_marker_20fffcedf50924cefa876863bbc53280 = L.circleMarker(
+                [19.331980702995963, -99.19206061705223],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_22dda3126836d18d8b15d6daad2b8245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6bfe49e027a583b79a405d7224ebd0f = $(`<div id="html_c6bfe49e027a583b79a405d7224ebd0f" style="width: 100.0%; height: 100.0%;">Estadio Olímpico Universitario - 68954</div>`)[0];
+                popup_22dda3126836d18d8b15d6daad2b8245.setContent(html_c6bfe49e027a583b79a405d7224ebd0f);
+            
+        
+
+        circle_marker_20fffcedf50924cefa876863bbc53280.bindPopup(popup_22dda3126836d18d8b15d6daad2b8245)
+        ;
+
+        
+    
+    
+            var circle_marker_4895d0019225f992eacdb3f8a7ceaaa2 = L.circleMarker(
+                [42.09091244820999, -71.26430270892212],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_7b38f4473316791f2500af95016f001e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_788b1c40de2b1c08429475dab4ffc489 = $(`<div id="html_788b1c40de2b1c08429475dab4ffc489" style="width: 100.0%; height: 100.0%;">Gillette Stadium - 68756</div>`)[0];
+                popup_7b38f4473316791f2500af95016f001e.setContent(html_788b1c40de2b1c08429475dab4ffc489);
+            
+        
+
+        circle_marker_4895d0019225f992eacdb3f8a7ceaaa2.bindPopup(popup_7b38f4473316791f2500af95016f001e)
+        ;
+
+        
+    
+    
+            var circle_marker_edffc5bbdc0ed4e8ad91658c6b75b072 = L.circleMarker(
+                [39.900780656724486, -75.16747920260143],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_564021a79d3f6c0e7e43bafe9471094a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f241f3110f35864df556fcfbec6fc28f = $(`<div id="html_f241f3110f35864df556fcfbec6fc28f" style="width: 100.0%; height: 100.0%;">Lincoln Financial Field - 68532</div>`)[0];
+                popup_564021a79d3f6c0e7e43bafe9471094a.setContent(html_f241f3110f35864df556fcfbec6fc28f);
+            
+        
+
+        circle_marker_edffc5bbdc0ed4e8ad91658c6b75b072.bindPopup(popup_564021a79d3f6c0e7e43bafe9471094a)
+        ;
+
+        
+    
+    
+            var circle_marker_20a2e360a547fab966f1ec5224d69afc = L.circleMarker(
+                [37.40323127228025, -121.96976363813611],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_76818b2da481ef2fbdb72cc32c8b80cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dec237b12a4abcd33466095c5caa13c5 = $(`<div id="html_dec237b12a4abcd33466095c5caa13c5" style="width: 100.0%; height: 100.0%;">Levi's Stadium - 68500</div>`)[0];
+                popup_76818b2da481ef2fbdb72cc32c8b80cc.setContent(html_dec237b12a4abcd33466095c5caa13c5);
+            
+        
+
+        circle_marker_20a2e360a547fab966f1ec5224d69afc.bindPopup(popup_76818b2da481ef2fbdb72cc32c8b80cc)
+        ;
+
+        
+    
+    
+            var circle_marker_8e55b73dce84f267c91fbf50e9d83fe1 = L.circleMarker(
+                [40.446764148204565, -80.0157659078683],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_8ca15802c14912206dea9a56d34cce5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9e1b1c7017949d6ad905c00e1ba41ad = $(`<div id="html_f9e1b1c7017949d6ad905c00e1ba41ad" style="width: 100.0%; height: 100.0%;">Acrisure Stadium - 68400</div>`)[0];
+                popup_8ca15802c14912206dea9a56d34cce5b.setContent(html_f9e1b1c7017949d6ad905c00e1ba41ad);
+            
+        
+
+        circle_marker_8e55b73dce84f267c91fbf50e9d83fe1.bindPopup(popup_8ca15802c14912206dea9a56d34cce5b)
+        ;
+
+        
+    
+    
+            var circle_marker_53f2b34e9b3e5ab24881f5a068251053 = L.circleMarker(
+                [30.32391228757257, -81.63735110661621],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_97d81e4e986a001910a6c67857b3da3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0781f95f09490c72e896c426ba788f24 = $(`<div id="html_0781f95f09490c72e896c426ba788f24" style="width: 100.0%; height: 100.0%;">TIAA Bank Field - 67814</div>`)[0];
+                popup_97d81e4e986a001910a6c67857b3da3c.setContent(html_0781f95f09490c72e896c426ba788f24);
+            
+        
+
+        circle_marker_53f2b34e9b3e5ab24881f5a068251053.bindPopup(popup_97d81e4e986a001910a6c67857b3da3c)
+        ;
+
+        
+    
+    
+            var circle_marker_0e87f448193d6fd5e01af2c701b26758 = L.circleMarker(
+                [39.76013369026806, -86.16382332701751],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_13427e916127d8df3328db02be45884c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_693ceac35b89757cdf4484c16fce69b0 = $(`<div id="html_693ceac35b89757cdf4484c16fce69b0" style="width: 100.0%; height: 100.0%;">Lucas Oil Stadium - 67000</div>`)[0];
+                popup_13427e916127d8df3328db02be45884c.setContent(html_693ceac35b89757cdf4484c16fce69b0);
+            
+        
+
+        circle_marker_0e87f448193d6fd5e01af2c701b26758.bindPopup(popup_13427e916127d8df3328db02be45884c)
+        ;
+
+        
+    
+    
+            var circle_marker_43d795e2fc13ff80cdffb7cc79f9f321 = L.circleMarker(
+                [38.6328651048313, -90.18849607119373],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_fd8dca90735c00772055834c279ee9e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d82c4bcd0958ce11a0d35417eb560b58 = $(`<div id="html_d82c4bcd0958ce11a0d35417eb560b58" style="width: 100.0%; height: 100.0%;">The Dome - 66965</div>`)[0];
+                popup_fd8dca90735c00772055834c279ee9e7.setContent(html_d82c4bcd0958ce11a0d35417eb560b58);
+            
+        
+
+        circle_marker_43d795e2fc13ff80cdffb7cc79f9f321.bindPopup(popup_fd8dca90735c00772055834c279ee9e7)
+        ;
+
+        
+    
+    
+            var circle_marker_d1006fafde97e7c4e95c4c1a25b9f1b9 = L.circleMarker(
+                [44.97360056045061, -93.25764470373306],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_4f58401d70c29e5d5e8f3ed94dc3342d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bec68ac5d6c4c601b21fc2322d76495 = $(`<div id="html_9bec68ac5d6c4c601b21fc2322d76495" style="width: 100.0%; height: 100.0%;">US Bank Stadium - 66655</div>`)[0];
+                popup_4f58401d70c29e5d5e8f3ed94dc3342d.setContent(html_9bec68ac5d6c4c601b21fc2322d76495);
+            
+        
+
+        circle_marker_d1006fafde97e7c4e95c4c1a25b9f1b9.bindPopup(popup_4f58401d70c29e5d5e8f3ed94dc3342d)
+        ;
+
+        
+    
+    
+            var circle_marker_c03246f15ecb7e8c0184e0e7b945fe27 = L.circleMarker(
+                [27.97586983438984, -82.50334098350257],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_b740f66ad6253e2e09299d2b3a26f6d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffa9661eac5f471ac14e32365805886d = $(`<div id="html_ffa9661eac5f471ac14e32365805886d" style="width: 100.0%; height: 100.0%;">Raymond James Stadium - 65847</div>`)[0];
+                popup_b740f66ad6253e2e09299d2b3a26f6d9.setContent(html_ffa9661eac5f471ac14e32365805886d);
+            
+        
+
+        circle_marker_c03246f15ecb7e8c0184e0e7b945fe27.bindPopup(popup_b740f66ad6253e2e09299d2b3a26f6d9)
+        ;
+
+        
+    
+    
+            var circle_marker_9497f8c9e657a6e10d77a39a02c49e83 = L.circleMarker(
+                [25.957969081463467, -80.2388683391761],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_5fe8ada69053d848c304d2d42aae55d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baa41bb39b3b0925b9e0fb52ec74d61d = $(`<div id="html_baa41bb39b3b0925b9e0fb52ec74d61d" style="width: 100.0%; height: 100.0%;">Hard Rock Stadium - 65326</div>`)[0];
+                popup_5fe8ada69053d848c304d2d42aae55d1.setContent(html_baa41bb39b3b0925b9e0fb52ec74d61d);
+            
+        
+
+        circle_marker_9497f8c9e657a6e10d77a39a02c49e83.bindPopup(popup_5fe8ada69053d848c304d2d42aae55d1)
+        ;
+
+        
+    
+    
+            var circle_marker_364df985dd2200e82c62e81233f2034f = L.circleMarker(
+                [45.557856483254426, -73.55164435955726],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_fa35c0f3e3a2bb73ca304e38a3bde895 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77d86a00c858d5a2e8ed0866b19a9e9e = $(`<div id="html_77d86a00c858d5a2e8ed0866b19a9e9e" style="width: 100.0%; height: 100.0%;">Olympic Stadium - 65255</div>`)[0];
+                popup_fa35c0f3e3a2bb73ca304e38a3bde895.setContent(html_77d86a00c858d5a2e8ed0866b19a9e9e);
+            
+        
+
+        circle_marker_364df985dd2200e82c62e81233f2034f.bindPopup(popup_fa35c0f3e3a2bb73ca304e38a3bde895)
+        ;
+
+        
+    
+    
+            var circle_marker_539a0a22a1ae88f37c42fe71dd7c95df = L.circleMarker(
+                [28.539028625198863, -81.40281687303833],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_19e9bd29abe96489a1078556735d8d35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3aca721aeaad301ca93994afa56eb98 = $(`<div id="html_e3aca721aeaad301ca93994afa56eb98" style="width: 100.0%; height: 100.0%;">Camping World Stadium - 65000</div>`)[0];
+                popup_19e9bd29abe96489a1078556735d8d35.setContent(html_e3aca721aeaad301ca93994afa56eb98);
+            
+        
+
+        circle_marker_539a0a22a1ae88f37c42fe71dd7c95df.bindPopup(popup_19e9bd29abe96489a1078556735d8d35)
+        ;
+
+        
+    
+    
+            var circle_marker_6b8b55a2845e16c44bfe247031dec9de = L.circleMarker(
+                [29.416983399998013, -98.47886794420288],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_298759461ff61ca4b5560420c924346e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12f802eab81d52034147c8c8b869db63 = $(`<div id="html_12f802eab81d52034147c8c8b869db63" style="width: 100.0%; height: 100.0%;">Alamodome - 65000</div>`)[0];
+                popup_298759461ff61ca4b5560420c924346e.setContent(html_12f802eab81d52034147c8c8b869db63);
+            
+        
+
+        circle_marker_6b8b55a2845e16c44bfe247031dec9de.bindPopup(popup_298759461ff61ca4b5560420c924346e)
+        ;
+
+        
+    
+    
+            var circle_marker_65508d6d8f4d3798d7d9b327bd2fd04d = L.circleMarker(
+                [42.33999846966384, -83.04564591536312],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc);
+        
+    
+        var popup_10b4fc370c82517c5abc278a7c374166 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf6b1f4438b0a31de9230da903ef8268 = $(`<div id="html_cf6b1f4438b0a31de9230da903ef8268" style="width: 100.0%; height: 100.0%;">Ford Field - 65000</div>`)[0];
+                popup_10b4fc370c82517c5abc278a7c374166.setContent(html_cf6b1f4438b0a31de9230da903ef8268);
+            
+        
+
+        circle_marker_65508d6d8f4d3798d7d9b327bd2fd04d.bindPopup(popup_10b4fc370c82517c5abc278a7c374166)
+        ;
+
+        
+    
+    
+            feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc.addTo(map_50aac412ac1734c5da2efdfcba132fc0);
+        
+    
+            var feature_group_a393043abe84f9102e5e44e99bb97219 = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_marker_506a54dcc7a3a7d21b23894d9a1cf8d1 = L.circleMarker(
+                [41.38089723741818, 2.1228270377119496],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_175bb76ca906d4e7d25c4879213a8b15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_655942f5bfd1a57593f6934a4c845081 = $(`<div id="html_655942f5bfd1a57593f6934a4c845081" style="width: 100.0%; height: 100.0%;">Camp Nou - 99354</div>`)[0];
+                popup_175bb76ca906d4e7d25c4879213a8b15.setContent(html_655942f5bfd1a57593f6934a4c845081);
+            
+        
+
+        circle_marker_506a54dcc7a3a7d21b23894d9a1cf8d1.bindPopup(popup_175bb76ca906d4e7d25c4879213a8b15)
+        ;
+
+        
+    
+    
+            var circle_marker_1a258c8a0a61792b9409fddd7150db16 = L.circleMarker(
+                [51.5559948625938, -0.2795952354156994],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_fe666663b134320d6c39f231f0ec3b06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e849bfb0c29040ada1dbf1e4eece1507 = $(`<div id="html_e849bfb0c29040ada1dbf1e4eece1507" style="width: 100.0%; height: 100.0%;">Wembley Stadium - 90000</div>`)[0];
+                popup_fe666663b134320d6c39f231f0ec3b06.setContent(html_e849bfb0c29040ada1dbf1e4eece1507);
+            
+        
+
+        circle_marker_1a258c8a0a61792b9409fddd7150db16.bindPopup(popup_fe666663b134320d6c39f231f0ec3b06)
+        ;
+
+        
+    
+    
+            var circle_marker_b8eb5a65647ad2a038105c9f191bad4c = L.circleMarker(
+                [40.453163809721325, -3.688276092275208],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_0cb92803760371ec7a550712bf26ca8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf25b7fd6281a972fac71191d37b1af0 = $(`<div id="html_cf25b7fd6281a972fac71191d37b1af0" style="width: 100.0%; height: 100.0%;">Estadio Santiago Bernabéu - 85000</div>`)[0];
+                popup_0cb92803760371ec7a550712bf26ca8c.setContent(html_cf25b7fd6281a972fac71191d37b1af0);
+            
+        
+
+        circle_marker_b8eb5a65647ad2a038105c9f191bad4c.bindPopup(popup_0cb92803760371ec7a550712bf26ca8c)
+        ;
+
+        
+    
+    
+            var circle_marker_ce5a23539a59b63ed0ae80dc951e35c4 = L.circleMarker(
+                [53.360740615698376, -6.2511175108048525],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_ed14ca04bc7e2b69047898ccf41f0a19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7be2eabee036deed485e2c71259560a2 = $(`<div id="html_7be2eabee036deed485e2c71259560a2" style="width: 100.0%; height: 100.0%;">Croke Park - 82300</div>`)[0];
+                popup_ed14ca04bc7e2b69047898ccf41f0a19.setContent(html_7be2eabee036deed485e2c71259560a2);
+            
+        
+
+        circle_marker_ce5a23539a59b63ed0ae80dc951e35c4.bindPopup(popup_ed14ca04bc7e2b69047898ccf41f0a19)
+        ;
+
+        
+    
+    
+            var circle_marker_3a13aa1b6cc9698f6edfd899e0b37735 = L.circleMarker(
+                [51.49260542952368, 7.4518290681327715],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_edca9f81a0f1e265fdde8ab94688b049 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_228debb180b865656a72cbd6f37a82f6 = $(`<div id="html_228debb180b865656a72cbd6f37a82f6" style="width: 100.0%; height: 100.0%;">SIGNAL IDUNA PARK - 81365</div>`)[0];
+                popup_edca9f81a0f1e265fdde8ab94688b049.setContent(html_228debb180b865656a72cbd6f37a82f6);
+            
+        
+
+        circle_marker_3a13aa1b6cc9698f6edfd899e0b37735.bindPopup(popup_edca9f81a0f1e265fdde8ab94688b049)
+        ;
+
+        
+    
+    
+            var circle_marker_7e5e8253c2fa2918ac51187b72be3fff = L.circleMarker(
+                [48.924475471987314, 2.360143300833112],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_0cb6782e97903119c28f9aea1603f0aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e00949e43ed01afec010d738df1dffc1 = $(`<div id="html_e00949e43ed01afec010d738df1dffc1" style="width: 100.0%; height: 100.0%;">Stade de France - 81338</div>`)[0];
+                popup_0cb6782e97903119c28f9aea1603f0aa.setContent(html_e00949e43ed01afec010d738df1dffc1);
+            
+        
+
+        circle_marker_7e5e8253c2fa2918ac51187b72be3fff.bindPopup(popup_0cb6782e97903119c28f9aea1603f0aa)
+        ;
+
+        
+    
+    
+            var circle_marker_759870eae90f5e3b7d5281ae24bbf051 = L.circleMarker(
+                [55.71565590310172, 37.55373085763004],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_be4c055539ad0f0e63ab128c774571ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_059ae3bd350cc33a313a1f564e5a512f = $(`<div id="html_059ae3bd350cc33a313a1f564e5a512f" style="width: 100.0%; height: 100.0%;">Grand Sports Arena of the Luzhniki Olympic Complex - 81000</div>`)[0];
+                popup_be4c055539ad0f0e63ab128c774571ac.setContent(html_059ae3bd350cc33a313a1f564e5a512f);
+            
+        
+
+        circle_marker_759870eae90f5e3b7d5281ae24bbf051.bindPopup(popup_be4c055539ad0f0e63ab128c774571ac)
+        ;
+
+        
+    
+    
+            var circle_marker_365c8b07e2a9ab9b8c030d2800cbe66b = L.circleMarker(
+                [45.47808038478466, 9.123997778190796],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_5283f5066adc2f5e886e4425c4a01dd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ae6fa877dc1f7309c9c6d59d13af477 = $(`<div id="html_7ae6fa877dc1f7309c9c6d59d13af477" style="width: 100.0%; height: 100.0%;">Stadio Giuseppe Meazza - 80018</div>`)[0];
+                popup_5283f5066adc2f5e886e4425c4a01dd7.setContent(html_7ae6fa877dc1f7309c9c6d59d13af477);
+            
+        
+
+        circle_marker_365c8b07e2a9ab9b8c030d2800cbe66b.bindPopup(popup_5283f5066adc2f5e886e4425c4a01dd7)
+        ;
+
+        
+    
+    
+            var circle_marker_59714922c6fe77faad2a4acc4164b5fb = L.circleMarker(
+                [41.074429710324495, 28.7655857171675],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_4521561f0afced638fa9f5055f93f61f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29cb5743df4f959ae79c29f10e45c524 = $(`<div id="html_29cb5743df4f959ae79c29f10e45c524" style="width: 100.0%; height: 100.0%;">Atatürk Olimpiyat Stadyumu - 76092</div>`)[0];
+                popup_4521561f0afced638fa9f5055f93f61f.setContent(html_29cb5743df4f959ae79c29f10e45c524);
+            
+        
+
+        circle_marker_59714922c6fe77faad2a4acc4164b5fb.bindPopup(popup_4521561f0afced638fa9f5055f93f61f)
+        ;
+
+        
+    
+    
+            var circle_marker_6680f2590b7ad1829c2a3ff34768fc69 = L.circleMarker(
+                [53.46310999848927, -2.2913615577063307],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_5bfd2e24c1da454b074bf7029d634067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7471ec5ef164261148ac0df88ecad69 = $(`<div id="html_a7471ec5ef164261148ac0df88ecad69" style="width: 100.0%; height: 100.0%;">Old Trafford - 76000</div>`)[0];
+                popup_5bfd2e24c1da454b074bf7029d634067.setContent(html_a7471ec5ef164261148ac0df88ecad69);
+            
+        
+
+        circle_marker_6680f2590b7ad1829c2a3ff34768fc69.bindPopup(popup_5bfd2e24c1da454b074bf7029d634067)
+        ;
+
+        
+    
+    
+            var circle_marker_f84b15099d7743e8e1cb3b37afc6bbe9 = L.circleMarker(
+                [48.218896678804725, 11.62472885764492],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_b28ab4e4be36bd96191962eb623dcdc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57c56f0c4994c8eb95444a0da0715d13 = $(`<div id="html_57c56f0c4994c8eb95444a0da0715d13" style="width: 100.0%; height: 100.0%;">Allianz Arena - 75024</div>`)[0];
+                popup_b28ab4e4be36bd96191962eb623dcdc5.setContent(html_57c56f0c4994c8eb95444a0da0715d13);
+            
+        
+
+        circle_marker_f84b15099d7743e8e1cb3b37afc6bbe9.bindPopup(popup_b28ab4e4be36bd96191962eb623dcdc5)
+        ;
+
+        
+    
+    
+            var circle_marker_9ba44aac713068af7693a218d5c64ab3 = L.circleMarker(
+                [51.47828868453689, -3.1826341000260574],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_081312f1e5341da64ad9d3ff63aa2910 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ba9b04de9b8b62d2b29861068aa112 = $(`<div id="html_08ba9b04de9b8b62d2b29861068aa112" style="width: 100.0%; height: 100.0%;">Principality Stadium - 74500</div>`)[0];
+                popup_081312f1e5341da64ad9d3ff63aa2910.setContent(html_08ba9b04de9b8b62d2b29861068aa112);
+            
+        
+
+        circle_marker_9ba44aac713068af7693a218d5c64ab3.bindPopup(popup_081312f1e5341da64ad9d3ff63aa2910)
+        ;
+
+        
+    
+    
+            var circle_marker_3168753b4dfcbde99c620bd9c84203d8 = L.circleMarker(
+                [52.514684729121285, 13.239495542293849],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_7648c0c5a079a80a12e35875d2cd1e3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dc858575436df64f0928a6a2abeb2f1 = $(`<div id="html_1dc858575436df64f0928a6a2abeb2f1" style="width: 100.0%; height: 100.0%;">Olympiastadion - 74475</div>`)[0];
+                popup_7648c0c5a079a80a12e35875d2cd1e3d.setContent(html_1dc858575436df64f0928a6a2abeb2f1);
+            
+        
+
+        circle_marker_3168753b4dfcbde99c620bd9c84203d8.bindPopup(popup_7648c0c5a079a80a12e35875d2cd1e3d)
+        ;
+
+        
+    
+    
+            var circle_marker_8de3d6c963b2f6f527c4ecdd77b00167 = L.circleMarker(
+                [41.93391754737856, 12.454718897261838],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_71a6686a11c2908ff2449100de40e3b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c20a75d36df859360eeefc592d7ee5f = $(`<div id="html_2c20a75d36df859360eeefc592d7ee5f" style="width: 100.0%; height: 100.0%;">Stadio Olimpico - 72698</div>`)[0];
+                popup_71a6686a11c2908ff2449100de40e3b4.setContent(html_2c20a75d36df859360eeefc592d7ee5f);
+            
+        
+
+        circle_marker_8de3d6c963b2f6f527c4ecdd77b00167.bindPopup(popup_71a6686a11c2908ff2449100de40e3b4)
+        ;
+
+        
+    
+    
+            var circle_marker_6895ff215f43186856ef16ee7ce27e8c = L.circleMarker(
+                [40.43619073195495, -3.5994641433643983],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_d738dbdca52b3a306e301edb191d6f38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33e7e243ebc182f2efa8f3902a3c4506 = $(`<div id="html_33e7e243ebc182f2efa8f3902a3c4506" style="width: 100.0%; height: 100.0%;">Cívitas Metropolitano - 70460</div>`)[0];
+                popup_d738dbdca52b3a306e301edb191d6f38.setContent(html_33e7e243ebc182f2efa8f3902a3c4506);
+            
+        
+
+        circle_marker_6895ff215f43186856ef16ee7ce27e8c.bindPopup(popup_d738dbdca52b3a306e301edb191d6f38)
+        ;
+
+        
+    
+    
+            var circle_marker_9ecaf68c179c527f2f13ad1bb797ce7f = L.circleMarker(
+                [50.433316957963854, 30.52179886872547],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_ea55794de06e82d52fbb07a621984dc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48a5833edfb602f33371be2d6d4e6bd2 = $(`<div id="html_48a5833edfb602f33371be2d6d4e6bd2" style="width: 100.0%; height: 100.0%;">Olympic National Sports Complex Stadium - 70000</div>`)[0];
+                popup_ea55794de06e82d52fbb07a621984dc3.setContent(html_48a5833edfb602f33371be2d6d4e6bd2);
+            
+        
+
+        circle_marker_9ecaf68c179c527f2f13ad1bb797ce7f.bindPopup(popup_ea55794de06e82d52fbb07a621984dc3)
+        ;
+
+        
+    
+    
+            var circle_marker_f4c1de4cbc12e59b2fd7efa1edac6042 = L.circleMarker(
+                [38.03607838640843, 23.78759208403598],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_9dfe468bcba95b54d2316223177f05b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_861b949e419c3ee1bcb09d88115bfe02 = $(`<div id="html_861b949e419c3ee1bcb09d88115bfe02" style="width: 100.0%; height: 100.0%;">Olympic Stadium - 69618</div>`)[0];
+                popup_9dfe468bcba95b54d2316223177f05b6.setContent(html_861b949e419c3ee1bcb09d88115bfe02);
+            
+        
+
+        circle_marker_f4c1de4cbc12e59b2fd7efa1edac6042.bindPopup(popup_9dfe468bcba95b54d2316223177f05b6)
+        ;
+
+        
+    
+    
+            var circle_marker_82b89756836974de7691e2ff0e8ad077 = L.circleMarker(
+                [48.17311993221864, 11.546541204693163],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_5e8889699e6771c2aecbfc780fcf4299 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_068451127e9607be95d9f25ff44385c2 = $(`<div id="html_068451127e9607be95d9f25ff44385c2" style="width: 100.0%; height: 100.0%;">Olympiastadion München - 69250</div>`)[0];
+                popup_5e8889699e6771c2aecbfc780fcf4299.setContent(html_068451127e9607be95d9f25ff44385c2);
+            
+        
+
+        circle_marker_82b89756836974de7691e2ff0e8ad077.bindPopup(popup_5e8889699e6771c2aecbfc780fcf4299)
+        ;
+
+        
+    
+    
+            var circle_marker_88a22158d40d39ce3e374d49f5fbc8a9 = L.circleMarker(
+                [59.973149344950585, 30.21988086208439],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_f80305acb939a23c15288883e012c21a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33ce37e943f5b232cac8f8365c749978 = $(`<div id="html_33ce37e943f5b232cac8f8365c749978" style="width: 100.0%; height: 100.0%;">Gazprom Arena - 68134</div>`)[0];
+                popup_f80305acb939a23c15288883e012c21a.setContent(html_33ce37e943f5b232cac8f8365c749978);
+            
+        
+
+        circle_marker_88a22158d40d39ce3e374d49f5fbc8a9.bindPopup(popup_f80305acb939a23c15288883e012c21a)
+        ;
+
+        
+    
+    
+            var circle_marker_8d31aa395f699ed714e0d0f7c846e3fb = L.circleMarker(
+                [43.26984283389351, 5.395918749928656],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_c7c0b6d3510d6895ad3962b8359b3f09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3a90f302486ca854d271b7990f56b69 = $(`<div id="html_a3a90f302486ca854d271b7990f56b69" style="width: 100.0%; height: 100.0%;">Orange Vélodrome - 67394</div>`)[0];
+                popup_c7c0b6d3510d6895ad3962b8359b3f09.setContent(html_a3a90f302486ca854d271b7990f56b69);
+            
+        
+
+        circle_marker_8d31aa395f699ed714e0d0f7c846e3fb.bindPopup(popup_c7c0b6d3510d6895ad3962b8359b3f09)
+        ;
+
+        
+    
+    
+            var circle_marker_bc757506e4aeb0293e56ddbfe4c609b4 = L.circleMarker(
+                [47.50315432986416, 19.097897601353782],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_5fc4bfdd075b3747dcfd6536f025fd6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46a8897a7e0983b550eb5822adf7a262 = $(`<div id="html_46a8897a7e0983b550eb5822adf7a262" style="width: 100.0%; height: 100.0%;">Puskás Aréna - 67215</div>`)[0];
+                popup_5fc4bfdd075b3747dcfd6536f025fd6a.setContent(html_46a8897a7e0983b550eb5822adf7a262);
+            
+        
+
+        circle_marker_bc757506e4aeb0293e56ddbfe4c609b4.bindPopup(popup_5fc4bfdd075b3747dcfd6536f025fd6a)
+        ;
+
+        
+    
+    
+            var circle_marker_bc668f155e8a266b4d4f1ebd03c1e773 = L.circleMarker(
+                [55.94226312872173, -3.2410413495179884],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_b5ef36133f7b09703eb34f2ced08b723 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff7b486682bdc77a0738d268d5f6c071 = $(`<div id="html_ff7b486682bdc77a0738d268d5f6c071" style="width: 100.0%; height: 100.0%;">Scottish Gas Murrayfield Stadium - 67144</div>`)[0];
+                popup_b5ef36133f7b09703eb34f2ced08b723.setContent(html_ff7b486682bdc77a0738d268d5f6c071);
+            
+        
+
+        circle_marker_bc668f155e8a266b4d4f1ebd03c1e773.bindPopup(popup_b5ef36133f7b09703eb34f2ced08b723)
+        ;
+
+        
+    
+    
+            var circle_marker_5d07cafcc535a78005939523ed85f6c7 = L.circleMarker(
+                [51.538674499999225, -0.0164382423490512],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_e415c48043af16e2e014a7175c5270c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9549e9f88aee257eb67d67faff493ad0 = $(`<div id="html_9549e9f88aee257eb67d67faff493ad0" style="width: 100.0%; height: 100.0%;">London Stadium - 66000</div>`)[0];
+                popup_e415c48043af16e2e014a7175c5270c0.setContent(html_9549e9f88aee257eb67d67faff493ad0);
+            
+        
+
+        circle_marker_5d07cafcc535a78005939523ed85f6c7.bindPopup(popup_e415c48043af16e2e014a7175c5270c0)
+        ;
+
+        
+    
+    
+            var circle_marker_af9ce5c914b7fb6eba03aaf67daea02c = L.circleMarker(
+                [38.7526968309463, -9.184675617285691],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_a393043abe84f9102e5e44e99bb97219);
+        
+    
+        var popup_8ac4f9e81df0c689fa71b2e0e897c7ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74d75d1acd150acfa173281cd6b7c46f = $(`<div id="html_74d75d1acd150acfa173281cd6b7c46f" style="width: 100.0%; height: 100.0%;">Estádio do Sport Lisboa e Benfica - 64642</div>`)[0];
+                popup_8ac4f9e81df0c689fa71b2e0e897c7ee.setContent(html_74d75d1acd150acfa173281cd6b7c46f);
+            
+        
+
+        circle_marker_af9ce5c914b7fb6eba03aaf67daea02c.bindPopup(popup_8ac4f9e81df0c689fa71b2e0e897c7ee)
+        ;
+
+        
+    
+    
+            feature_group_a393043abe84f9102e5e44e99bb97219.addTo(map_50aac412ac1734c5da2efdfcba132fc0);
+        
+    
+            var feature_group_221a31391aad026c7248de6e9e61b3f4 = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_marker_9796b6f9266ac69765b968376648b171 = L.circleMarker(
+                [39.04965194992577, 125.77534304766084],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_c739348d6c48fa59c932068d943e9eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ed759349796359ee21355e71cd11c39 = $(`<div id="html_8ed759349796359ee21355e71cd11c39" style="width: 100.0%; height: 100.0%;">Rungrado 1st of May Stadium - 114000</div>`)[0];
+                popup_c739348d6c48fa59c932068d943e9eb0.setContent(html_8ed759349796359ee21355e71cd11c39);
+            
+        
+
+        circle_marker_9796b6f9266ac69765b968376648b171.bindPopup(popup_c739348d6c48fa59c932068d943e9eb0)
+        ;
+
+        
+    
+    
+            var circle_marker_4cdbadc3a8135837c7f877e3bcf2421f = L.circleMarker(
+                [25.420820078894025, 51.4906543355002],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_dab8bf6c3b7aa19ce40edd54e974170d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_575aa4188da8cad8e825c12405485c78 = $(`<div id="html_575aa4188da8cad8e825c12405485c78" style="width: 100.0%; height: 100.0%;">Lusail Stadium - 88966</div>`)[0];
+                popup_dab8bf6c3b7aa19ce40edd54e974170d.setContent(html_575aa4188da8cad8e825c12405485c78);
+            
+        
+
+        circle_marker_4cdbadc3a8135837c7f877e3bcf2421f.bindPopup(popup_dab8bf6c3b7aa19ce40edd54e974170d)
+        ;
+
+        
+    
+    
+            var circle_marker_1bb7ff9927061d978bce5095373c300c = L.circleMarker(
+                [3.054574740468277, 101.69135665589184],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_2c1bda16ee2beb5d830c16ea862c7eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_733612bcdf480494ad0ce2c059e2ed1e = $(`<div id="html_733612bcdf480494ad0ce2c059e2ed1e" style="width: 100.0%; height: 100.0%;">Bukit Jalil National Stadium - 87411</div>`)[0];
+                popup_2c1bda16ee2beb5d830c16ea862c7eb0.setContent(html_733612bcdf480494ad0ce2c059e2ed1e);
+            
+        
+
+        circle_marker_1bb7ff9927061d978bce5095373c300c.bindPopup(popup_2c1bda16ee2beb5d830c16ea862c7eb0)
+        ;
+
+        
+    
+    
+            var circle_marker_475ad40b39e973eb2525adeb20792db3 = L.circleMarker(
+                [-6.125155694065391, 106.86008992229212],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_3b704985f8917b7010aaa569ff4d8af8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ac732418faf891f1142f6b9c992f9c = $(`<div id="html_44ac732418faf891f1142f6b9c992f9c" style="width: 100.0%; height: 100.0%;">Jakarta International Stadium - 82000</div>`)[0];
+                popup_3b704985f8917b7010aaa569ff4d8af8.setContent(html_44ac732418faf891f1142f6b9c992f9c);
+            
+        
+
+        circle_marker_475ad40b39e973eb2525adeb20792db3.bindPopup(popup_3b704985f8917b7010aaa569ff4d8af8)
+        ;
+
+        
+    
+    
+            var circle_marker_dbe539420371d3d939392867f31a6393 = L.circleMarker(
+                [3.082217274417736, 101.54519357248311],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_820d2b1dee15750f75f973b187321d42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fb13c0a58728a50e4ac37976ad1ec54 = $(`<div id="html_2fb13c0a58728a50e4ac37976ad1ec54" style="width: 100.0%; height: 100.0%;">Shah Alam Stadium - 80372</div>`)[0];
+                popup_820d2b1dee15750f75f973b187321d42.setContent(html_2fb13c0a58728a50e4ac37976ad1ec54);
+            
+        
+
+        circle_marker_dbe539420371d3d939392867f31a6393.bindPopup(popup_820d2b1dee15750f75f973b187321d42)
+        ;
+
+        
+    
+    
+            var circle_marker_092a05131e6730e40ceaef80b4097934 = L.circleMarker(
+                [23.135462992163937, 113.40908586113764],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_bf256779c9bad6eda51a09fb0a4ee8bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f78cc4ee7a3382f4fde48d678f3a07d = $(`<div id="html_3f78cc4ee7a3382f4fde48d678f3a07d" style="width: 100.0%; height: 100.0%;">Guangdong Olympic Stadium - 80012</div>`)[0];
+                popup_bf256779c9bad6eda51a09fb0a4ee8bb.setContent(html_3f78cc4ee7a3382f4fde48d678f3a07d);
+            
+        
+
+        circle_marker_092a05131e6730e40ceaef80b4097934.bindPopup(popup_bf256779c9bad6eda51a09fb0a4ee8bb)
+        ;
+
+        
+    
+    
+            var circle_marker_c76f6dbbe2ef303299cfaefd996113df = L.circleMarker(
+                [30.23153955997462, 120.22435285101288],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_6faa47de657ed02e47d1b918d009491c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_035c3a9e851ff26b92dc9dcfe298e8f0 = $(`<div id="html_035c3a9e851ff26b92dc9dcfe298e8f0" style="width: 100.0%; height: 100.0%;">Hangzhou Olympic Sports Expo Centre Stadium - 80000</div>`)[0];
+                popup_6faa47de657ed02e47d1b918d009491c.setContent(html_035c3a9e851ff26b92dc9dcfe298e8f0);
+            
+        
+
+        circle_marker_c76f6dbbe2ef303299cfaefd996113df.bindPopup(popup_6faa47de657ed02e47d1b918d009491c)
+        ;
+
+        
+    
+    
+            var circle_marker_7cd71f8e565c66c0552cc0445c3a7499 = L.circleMarker(
+                [39.99136005574667, 116.39007803797963],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_75d6bce1f494a4645beba50eff760226 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0dc66a18852ad58679b72b181627d50 = $(`<div id="html_c0dc66a18852ad58679b72b181627d50" style="width: 100.0%; height: 100.0%;">Beijing National Stadium - 80000</div>`)[0];
+                popup_75d6bce1f494a4645beba50eff760226.setContent(html_c0dc66a18852ad58679b72b181627d50);
+            
+        
+
+        circle_marker_7cd71f8e565c66c0552cc0445c3a7499.bindPopup(popup_75d6bce1f494a4645beba50eff760226)
+        ;
+
+        
+    
+    
+            var circle_marker_5cac0bd800915275198aa8e4dbda9a98 = L.circleMarker(
+                [35.724398369868794, 51.27561273647738],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_a788ae50e97686d019687f85bf13e96a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c12678ae35742fd1d4716b191723d3df = $(`<div id="html_c12678ae35742fd1d4716b191723d3df" style="width: 100.0%; height: 100.0%;">Azadi Stadium - 78116</div>`)[0];
+                popup_a788ae50e97686d019687f85bf13e96a.setContent(html_c12678ae35742fd1d4716b191723d3df);
+            
+        
+
+        circle_marker_5cac0bd800915275198aa8e4dbda9a98.bindPopup(popup_a788ae50e97686d019687f85bf13e96a)
+        ;
+
+        
+    
+    
+            var circle_marker_d44dc4e2c3337c1532afb20969fd12b2 = L.circleMarker(
+                [-6.2186149780690725, 106.80259045374024],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_fd881084516cbf06169722ae98fa2a0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11522b7eb4e3eec28488a04bfbdc7df9 = $(`<div id="html_11522b7eb4e3eec28488a04bfbdc7df9" style="width: 100.0%; height: 100.0%;">Stadion Utama Gelora Bung Karno - 77193</div>`)[0];
+                popup_fd881084516cbf06169722ae98fa2a0a.setContent(html_11522b7eb4e3eec28488a04bfbdc7df9);
+            
+        
+
+        circle_marker_d44dc4e2c3337c1532afb20969fd12b2.bindPopup(popup_fd881084516cbf06169722ae98fa2a0a)
+        ;
+
+        
+    
+    
+            var circle_marker_05a58e833ec8941976a9364b755358c4 = L.circleMarker(
+                [32.74324207594609, 51.686172371135946],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_4ee57ef99414a9c93856d62972f33342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_385c2fa8b7a50d7a0fc2a2879f795633 = $(`<div id="html_385c2fa8b7a50d7a0fc2a2879f795633" style="width: 100.0%; height: 100.0%;">Naghsh-e-Jahan Stadium - 75000</div>`)[0];
+                popup_4ee57ef99414a9c93856d62972f33342.setContent(html_385c2fa8b7a50d7a0fc2a2879f795633);
+            
+        
+
+        circle_marker_05a58e833ec8941976a9364b755358c4.bindPopup(popup_4ee57ef99414a9c93856d62972f33342)
+        ;
+
+        
+    
+    
+            var circle_marker_c1b49de08b38fe0534fccc4d4bfb87a0 = L.circleMarker(
+                [35.5099431259073, 139.60638949707914],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_17110fa12726b008f2e5a28bdd01e9c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5739fc5525529596662992ff3124674a = $(`<div id="html_5739fc5525529596662992ff3124674a" style="width: 100.0%; height: 100.0%;">Nissan Stadium - 72327</div>`)[0];
+                popup_17110fa12726b008f2e5a28bdd01e9c5.setContent(html_5739fc5525529596662992ff3124674a);
+            
+        
+
+        circle_marker_c1b49de08b38fe0534fccc4d4bfb87a0.bindPopup(popup_17110fa12726b008f2e5a28bdd01e9c5)
+        ;
+
+        
+    
+    
+            var circle_marker_300ebe87790b11f75002862aa527a273 = L.circleMarker(
+                [31.18333055699526, 121.43755649294536],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_6249a542535e406e3f7050963b854c8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37ef93958326539aaa7fc7441a0858c3 = $(`<div id="html_37ef93958326539aaa7fc7441a0858c3" style="width: 100.0%; height: 100.0%;">Shanghai Stadium - 72000</div>`)[0];
+                popup_6249a542535e406e3f7050963b854c8c.setContent(html_37ef93958326539aaa7fc7441a0858c3);
+            
+        
+
+        circle_marker_300ebe87790b11f75002862aa527a273.bindPopup(popup_6249a542535e406e3f7050963b854c8c)
+        ;
+
+        
+    
+    
+            var circle_marker_360e8c0ad819f400219cce33d1bec4c9 = L.circleMarker(
+                [37.51582572765429, 127.07279715604258],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_63c3965d937bd6585357329d20023bd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a150928529eef1e7dfb6849c27ed5ad0 = $(`<div id="html_a150928529eef1e7dfb6849c27ed5ad0" style="width: 100.0%; height: 100.0%;">Seoul Olympic Stadium - 69950</div>`)[0];
+                popup_63c3965d937bd6585357329d20023bd8.setContent(html_a150928529eef1e7dfb6849c27ed5ad0);
+            
+        
+
+        circle_marker_360e8c0ad819f400219cce33d1bec4c9.bindPopup(popup_63c3965d937bd6585357329d20023bd8)
+        ;
+
+        
+    
+    
+            var circle_marker_6062ad6f27b9f30785be3c26fb31efaf = L.circleMarker(
+                [40.42992340973494, 49.91957108010504],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_de1dabceb4b7792c95f872185155a807 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3325d444befc362759a5327d802e09de = $(`<div id="html_3325d444befc362759a5327d802e09de" style="width: 100.0%; height: 100.0%;">Bakı Olimpiya stadionu - 69870</div>`)[0];
+                popup_de1dabceb4b7792c95f872185155a807.setContent(html_3325d444befc362759a5327d802e09de);
+            
+        
+
+        circle_marker_6062ad6f27b9f30785be3c26fb31efaf.bindPopup(popup_de1dabceb4b7792c95f872185155a807)
+        ;
+
+        
+    
+    
+            var circle_marker_045ce8579aa74e2764f169531263aad6 = L.circleMarker(
+                [21.763150745700493, 39.164316231084015],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_3e345ff2754db3bed21d19baa56fa2ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eba231938b71cda7e209810afe3c8ebe = $(`<div id="html_eba231938b71cda7e209810afe3c8ebe" style="width: 100.0%; height: 100.0%;">King Abdullah Sports City Stadium - 68560</div>`)[0];
+                popup_3e345ff2754db3bed21d19baa56fa2ab.setContent(html_eba231938b71cda7e209810afe3c8ebe);
+            
+        
+
+        circle_marker_045ce8579aa74e2764f169531263aad6.bindPopup(popup_3e345ff2754db3bed21d19baa56fa2ab)
+        ;
+
+        
+    
+    
+            var circle_marker_0766f68e985eca1d1746133a19089119 = L.circleMarker(
+                [22.569044430725462, 88.40898862582446],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_45a3024e9a5f7d3674eafe6f18008f46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f54907d03ad910bc32d91c0fa7b6e74 = $(`<div id="html_2f54907d03ad910bc32d91c0fa7b6e74" style="width: 100.0%; height: 100.0%;">Salt Lake Stadium - 68000</div>`)[0];
+                popup_45a3024e9a5f7d3674eafe6f18008f46.setContent(html_2f54907d03ad910bc32d91c0fa7b6e74);
+            
+        
+
+        circle_marker_0766f68e985eca1d1746133a19089119.bindPopup(popup_45a3024e9a5f7d3674eafe6f18008f46)
+        ;
+
+        
+    
+    
+            var circle_marker_96b9119225255ce5bf28bab73fb87f1d = L.circleMarker(
+                [35.67781033061432, 139.71455083138858],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_0068beee37540257d31d1bece09fac76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47b63ffa006392a60f166ca0697feef0 = $(`<div id="html_47b63ffa006392a60f166ca0697feef0" style="width: 100.0%; height: 100.0%;">National Stadium - 68000</div>`)[0];
+                popup_0068beee37540257d31d1bece09fac76.setContent(html_47b63ffa006392a60f166ca0697feef0);
+            
+        
+
+        circle_marker_96b9119225255ce5bf28bab73fb87f1d.bindPopup(popup_0068beee37540257d31d1bece09fac76)
+        ;
+
+        
+    
+    
+            var circle_marker_80b4ac34e4a27f696341c2cc4242a1c3 = L.circleMarker(
+                [38.02681179193877, 46.29606737114292],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_3fd48adde8c3fe31b0e12555f1d1e7ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcfd3d51b62d2bd29bea4701eb6f7009 = $(`<div id="html_dcfd3d51b62d2bd29bea4701eb6f7009" style="width: 100.0%; height: 100.0%;">Yadegar-e-Emam Stadium - 66833</div>`)[0];
+                popup_3fd48adde8c3fe31b0e12555f1d1e7ee.setContent(html_dcfd3d51b62d2bd29bea4701eb6f7009);
+            
+        
+
+        circle_marker_80b4ac34e4a27f696341c2cc4242a1c3.bindPopup(popup_3fd48adde8c3fe31b0e12555f1d1e7ee)
+        ;
+
+        
+    
+    
+            var circle_marker_30159a5858b6518d3c7cd9387a9addfe = L.circleMarker(
+                [37.56827885513662, 126.8972555450256],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_73b16482db3024fd2c2332bc2290b002 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f1f84b17c33780f7f3b01692c0e83de = $(`<div id="html_9f1f84b17c33780f7f3b01692c0e83de" style="width: 100.0%; height: 100.0%;">Seoul World Cup Stadium - 66704</div>`)[0];
+                popup_73b16482db3024fd2c2332bc2290b002.setContent(html_9f1f84b17c33780f7f3b01692c0e83de);
+            
+        
+
+        circle_marker_30159a5858b6518d3c7cd9387a9addfe.bindPopup(popup_73b16482db3024fd2c2332bc2290b002)
+        ;
+
+        
+    
+    
+            var circle_marker_b2a1438936c73fcc71dd829f92d8e47b = L.circleMarker(
+                [35.82979530598492, 128.69018154230793],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_8f3bcc2217fb52c2b7b85f600fb9bda6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89598e718683cdd8bfde7b261f925892 = $(`<div id="html_89598e718683cdd8bfde7b261f925892" style="width: 100.0%; height: 100.0%;">Daegu Stadium - 66422</div>`)[0];
+                popup_8f3bcc2217fb52c2b7b85f600fb9bda6.setContent(html_89598e718683cdd8bfde7b261f925892);
+            
+        
+
+        circle_marker_b2a1438936c73fcc71dd829f92d8e47b.bindPopup(popup_8f3bcc2217fb52c2b7b85f600fb9bda6)
+        ;
+
+        
+    
+    
+            var circle_marker_160471c11cbd5cd9fd3302c70535f04b = L.circleMarker(
+                [39.92957893693215, 116.44114208631268],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_eceff9ec19f0a997d0d48340305ab7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d27742f7db13e6673c7232b72fb4b667 = $(`<div id="html_d27742f7db13e6673c7232b72fb4b667" style="width: 100.0%; height: 100.0%;">Worker's Stadium - 66161</div>`)[0];
+                popup_eceff9ec19f0a997d0d48340305ab7f6.setContent(html_d27742f7db13e6673c7232b72fb4b667);
+            
+        
+
+        circle_marker_160471c11cbd5cd9fd3302c70535f04b.bindPopup(popup_eceff9ec19f0a997d0d48340305ab7f6)
+        ;
+
+        
+    
+    
+            var circle_marker_35dbd2ad103818cd97b0f1224115273e = L.circleMarker(
+                [30.4398116999705, 47.77982267113869],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_221a31391aad026c7248de6e9e61b3f4);
+        
+    
+        var popup_0fd298e2ea1ddf02b2e4c94d18710aca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb3fc09d49d264111b8197c67cb8c5b9 = $(`<div id="html_cb3fc09d49d264111b8197c67cb8c5b9" style="width: 100.0%; height: 100.0%;">Basra International Staidum - 65227</div>`)[0];
+                popup_0fd298e2ea1ddf02b2e4c94d18710aca.setContent(html_cb3fc09d49d264111b8197c67cb8c5b9);
+            
+        
+
+        circle_marker_35dbd2ad103818cd97b0f1224115273e.bindPopup(popup_0fd298e2ea1ddf02b2e4c94d18710aca)
+        ;
+
+        
+    
+    
+            feature_group_221a31391aad026c7248de6e9e61b3f4.addTo(map_50aac412ac1734c5da2efdfcba132fc0);
+        
+    
+            var feature_group_710ce60eb9662af523e010dcdfc9b085 = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_marker_8106abc93d73c9c2a625c45745acc003 = L.circleMarker(
+                [-26.234814906833652, 27.982638429399252],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_488857195a7173d7f92d473bc9fbfb44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b336e7f0e6180d2c26e8d98d50a359d4 = $(`<div id="html_b336e7f0e6180d2c26e8d98d50a359d4" style="width: 100.0%; height: 100.0%;">FNB Stadium - 94736</div>`)[0];
+                popup_488857195a7173d7f92d473bc9fbfb44.setContent(html_b336e7f0e6180d2c26e8d98d50a359d4);
+            
+        
+
+        circle_marker_8106abc93d73c9c2a625c45745acc003.bindPopup(popup_488857195a7173d7f92d473bc9fbfb44)
+        ;
+
+        
+    
+    
+            var circle_marker_dc3a5ea9d345b4fd29e008434b1d26de = L.circleMarker(
+                [29.89221160682303, 31.673201820085342],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_543ce42d8263cdec433904a1bd7a8290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f1e95a33149bc5b354cace62088ceb6 = $(`<div id="html_8f1e95a33149bc5b354cace62088ceb6" style="width: 100.0%; height: 100.0%;">New Administrative Capital Stadium - 93940</div>`)[0];
+                popup_543ce42d8263cdec433904a1bd7a8290.setContent(html_8f1e95a33149bc5b354cace62088ceb6);
+            
+        
+
+        circle_marker_dc3a5ea9d345b4fd29e008434b1d26de.bindPopup(popup_543ce42d8263cdec433904a1bd7a8290)
+        ;
+
+        
+    
+    
+            var circle_marker_1bcc4d754bbeeac969622171ffbd92d4 = L.circleMarker(
+                [30.99946085210931, 29.72941768532979],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_4da1dfad935d09a5e2e4ae465844a778 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_080d9ecb6f4b6d02910c85b2c473d3f9 = $(`<div id="html_080d9ecb6f4b6d02910c85b2c473d3f9" style="width: 100.0%; height: 100.0%;">Borg el-Arab Stadium - 86000</div>`)[0];
+                popup_4da1dfad935d09a5e2e4ae465844a778.setContent(html_080d9ecb6f4b6d02910c85b2c473d3f9);
+            
+        
+
+        circle_marker_1bcc4d754bbeeac969622171ffbd92d4.bindPopup(popup_4da1dfad935d09a5e2e4ae465844a778)
+        ;
+
+        
+    
+    
+            var circle_marker_4098ec911e1a5a38194c5f4311f99e5c = L.circleMarker(
+                [-4.330308355990867, 15.310345358776468],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_c805726a47d869e1667860ef8173d655 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bddd94e12dbf6de0cd4fd8a49b263b5d = $(`<div id="html_bddd94e12dbf6de0cd4fd8a49b263b5d" style="width: 100.0%; height: 100.0%;">Stade des Martyrs - 80000</div>`)[0];
+                popup_c805726a47d869e1667860ef8173d655.setContent(html_bddd94e12dbf6de0cd4fd8a49b263b5d);
+            
+        
+
+        circle_marker_4098ec911e1a5a38194c5f4311f99e5c.bindPopup(popup_c805726a47d869e1667860ef8173d655)
+        ;
+
+        
+    
+    
+            var circle_marker_b10e12c2447230ccaac684c09e5c6336 = L.circleMarker(
+                [-4.337967002830031, 15.322622619308651],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_4b7bacf8e6d7e8f1a9a3d23dc322dac4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ac19962ea6eddc36d5ab348d9a112b3 = $(`<div id="html_8ac19962ea6eddc36d5ab348d9a112b3" style="width: 100.0%; height: 100.0%;">Stade Tata Raphaël - 80000</div>`)[0];
+                popup_4b7bacf8e6d7e8f1a9a3d23dc322dac4.setContent(html_8ac19962ea6eddc36d5ab348d9a112b3);
+            
+        
+
+        circle_marker_b10e12c2447230ccaac684c09e5c6336.bindPopup(popup_4b7bacf8e6d7e8f1a9a3d23dc322dac4)
+        ;
+
+        
+    
+    
+            var circle_marker_2df20b7a036786e95017eaff1c78ac36 = L.circleMarker(
+                [-17.821401134615403, 30.99501533780048],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_1a58d3fe25a2b40f70d9f3c26c23ecc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d063d344cb964673125d4a3a88babe3d = $(`<div id="html_d063d344cb964673125d4a3a88babe3d" style="width: 100.0%; height: 100.0%;">National Sports Stadium - 80000</div>`)[0];
+                popup_1a58d3fe25a2b40f70d9f3c26c23ecc5.setContent(html_d063d344cb964673125d4a3a88babe3d);
+            
+        
+
+        circle_marker_2df20b7a036786e95017eaff1c78ac36.bindPopup(popup_1a58d3fe25a2b40f70d9f3c26c23ecc5)
+        ;
+
+        
+    
+    
+            var circle_marker_84789bc8cf577ba253b51304c481713a = L.circleMarker(
+                [-1.229902579983135, 36.892464214295565],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_251f0cd1b54bfde7bdb842cefb630288 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_379751b079e215dd9d64ce69a1720d64 = $(`<div id="html_379751b079e215dd9d64ce69a1720d64" style="width: 100.0%; height: 100.0%;">Moi International Sports Centre - 80000</div>`)[0];
+                popup_251f0cd1b54bfde7bdb842cefb630288.setContent(html_379751b079e215dd9d64ce69a1720d64);
+            
+        
+
+        circle_marker_84789bc8cf577ba253b51304c481713a.bindPopup(popup_251f0cd1b54bfde7bdb842cefb630288)
+        ;
+
+        
+    
+    
+            var circle_marker_0a98f8ff3185d87386ef3f978bb2bca5 = L.circleMarker(
+                [14.74672607193985, -17.451893434639473],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_95e715b8a81d71af09198dbdd08cdee7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3af3b06e133a044779934f1b1864f880 = $(`<div id="html_3af3b06e133a044779934f1b1864f880" style="width: 100.0%; height: 100.0%;">Stade Léopold Sédar-Senghor - 80000</div>`)[0];
+                popup_95e715b8a81d71af09198dbdd08cdee7.setContent(html_3af3b06e133a044779934f1b1864f880);
+            
+        
+
+        circle_marker_0a98f8ff3185d87386ef3f978bb2bca5.bindPopup(popup_95e715b8a81d71af09198dbdd08cdee7)
+        ;
+
+        
+    
+    
+            var circle_marker_658d6c5260612326fd7998b1fd6695fb = L.circleMarker(
+                [30.06911615282077, 31.312314807691404],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_fb8e51263dc8877a482c3459cae7fde3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c78458df3f346111fa8b5fdd1479144 = $(`<div id="html_3c78458df3f346111fa8b5fdd1479144" style="width: 100.0%; height: 100.0%;">Cairo International Stadium - 74100</div>`)[0];
+                popup_fb8e51263dc8877a482c3459cae7fde3.setContent(html_3c78458df3f346111fa8b5fdd1479144);
+            
+        
+
+        circle_marker_658d6c5260612326fd7998b1fd6695fb.bindPopup(popup_fb8e51263dc8877a482c3459cae7fde3)
+        ;
+
+        
+    
+    
+            var circle_marker_2cb591ce6ea66806229ff18c5974f7d6 = L.circleMarker(
+                [35.74119554104711, -5.858063828861951],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_4570b45bed2204d25ea0fa6ecfecde24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_299b8ca6506bf0c44ff03616da415f87 = $(`<div id="html_299b8ca6506bf0c44ff03616da415f87" style="width: 100.0%; height: 100.0%;">Stade Ibn Battuta - 65000</div>`)[0];
+                popup_4570b45bed2204d25ea0fa6ecfecde24.setContent(html_299b8ca6506bf0c44ff03616da415f87);
+            
+        
+
+        circle_marker_2cb591ce6ea66806229ff18c5974f7d6.bindPopup(popup_4570b45bed2204d25ea0fa6ecfecde24)
+        ;
+
+        
+    
+    
+            var circle_marker_371cac724e2021fd683969817ba1d166 = L.circleMarker(
+                [36.75984769541536, 2.9951826288166807],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_710ce60eb9662af523e010dcdfc9b085);
+        
+    
+        var popup_d79a1b5dcc67e8f44a602e8c9b554012 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c9ec311a4eaea486c933904e00edc65 = $(`<div id="html_2c9ec311a4eaea486c933904e00edc65" style="width: 100.0%; height: 100.0%;">Stade du 5-juillet-1962 - 64000</div>`)[0];
+                popup_d79a1b5dcc67e8f44a602e8c9b554012.setContent(html_2c9ec311a4eaea486c933904e00edc65);
+            
+        
+
+        circle_marker_371cac724e2021fd683969817ba1d166.bindPopup(popup_d79a1b5dcc67e8f44a602e8c9b554012)
+        ;
+
+        
+    
+    
+            feature_group_710ce60eb9662af523e010dcdfc9b085.addTo(map_50aac412ac1734c5da2efdfcba132fc0);
+        
+    
+            var feature_group_310695a7b25078d1cb8e29bc8fb3bf7a = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_marker_939a7c8199298215b9ba56ed8dfd4293 = L.circleMarker(
+                [-37.81998451071704, 144.98345246645442],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_310695a7b25078d1cb8e29bc8fb3bf7a);
+        
+    
+        var popup_6358eaf68a886d331ed0d69541192c53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a08fae240e0c668da6bc73014536c9b5 = $(`<div id="html_a08fae240e0c668da6bc73014536c9b5" style="width: 100.0%; height: 100.0%;">Melbourne Cricket Ground - 1000254</div>`)[0];
+                popup_6358eaf68a886d331ed0d69541192c53.setContent(html_a08fae240e0c668da6bc73014536c9b5);
+            
+        
+
+        circle_marker_939a7c8199298215b9ba56ed8dfd4293.bindPopup(popup_6358eaf68a886d331ed0d69541192c53)
+        ;
+
+        
+    
+    
+            var circle_marker_94ba69c21a5323f94dff22329346129b = L.circleMarker(
+                [-33.84707584839966, 151.0634221250042],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_310695a7b25078d1cb8e29bc8fb3bf7a);
+        
+    
+        var popup_29afb1a3fdf5f038f912b1f685ec10ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de8295c1dd1883ee0fb5f05a0a3404d8 = $(`<div id="html_de8295c1dd1883ee0fb5f05a0a3404d8" style="width: 100.0%; height: 100.0%;">Stadium Australia - 83500</div>`)[0];
+                popup_29afb1a3fdf5f038f912b1f685ec10ed.setContent(html_de8295c1dd1883ee0fb5f05a0a3404d8);
+            
+        
+
+        circle_marker_94ba69c21a5323f94dff22329346129b.bindPopup(popup_29afb1a3fdf5f038f912b1f685ec10ed)
+        ;
+
+        
+    
+    
+            feature_group_310695a7b25078d1cb8e29bc8fb3bf7a.addTo(map_50aac412ac1734c5da2efdfcba132fc0);
+        
+    
+            var feature_group_e6fdf86490af2b2e81b34021c1418c88 = L.featureGroup(
+                {}
+            );
+        
+    
+            var circle_marker_08052caeb04233d9748a2af3ad4e90bd = L.circleMarker(
+                [-34.545302038154674, -58.44973476533836],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_e6fdf86490af2b2e81b34021c1418c88);
+        
+    
+        var popup_91dee9fec6fd99a04326f97c7e674f38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85c819d366ab4702c7520e9b569052be = $(`<div id="html_85c819d366ab4702c7520e9b569052be" style="width: 100.0%; height: 100.0%;">Estadio Mâs Monumental - 84567</div>`)[0];
+                popup_91dee9fec6fd99a04326f97c7e674f38.setContent(html_85c819d366ab4702c7520e9b569052be);
+            
+        
+
+        circle_marker_08052caeb04233d9748a2af3ad4e90bd.bindPopup(popup_91dee9fec6fd99a04326f97c7e674f38)
+        ;
+
+        
+    
+    
+            var circle_marker_9c7fe05601d1850b694c583108a48962 = L.circleMarker(
+                [-12.055700790307048, -76.93601211069488],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_e6fdf86490af2b2e81b34021c1418c88);
+        
+    
+        var popup_ddbc0bf2a248a52f18b4450c43d25496 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dfefdeb1bd071a2efc125c1ad7319f2 = $(`<div id="html_8dfefdeb1bd071a2efc125c1ad7319f2" style="width: 100.0%; height: 100.0%;">Estadio Monumental - 80093</div>`)[0];
+                popup_ddbc0bf2a248a52f18b4450c43d25496.setContent(html_8dfefdeb1bd071a2efc125c1ad7319f2);
+            
+        
+
+        circle_marker_9c7fe05601d1850b694c583108a48962.bindPopup(popup_ddbc0bf2a248a52f18b4450c43d25496)
+        ;
+
+        
+    
+    
+            var circle_marker_c7024683b3f016008ed50bde44854d8e = L.circleMarker(
+                [-22.91218588462928, -43.230172434130544],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_e6fdf86490af2b2e81b34021c1418c88);
+        
+    
+        var popup_17863a86fa4a771cdb24ada6f4e3cb2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff07f45063797fa711e48c55b6898cbf = $(`<div id="html_ff07f45063797fa711e48c55b6898cbf" style="width: 100.0%; height: 100.0%;">Maracanã - 78383</div>`)[0];
+                popup_17863a86fa4a771cdb24ada6f4e3cb2e.setContent(html_ff07f45063797fa711e48c55b6898cbf);
+            
+        
+
+        circle_marker_c7024683b3f016008ed50bde44854d8e.bindPopup(popup_17863a86fa4a771cdb24ada6f4e3cb2e)
+        ;
+
+        
+    
+    
+            var circle_marker_e521bd34504ae10b74cb5f67dfcd8333 = L.circleMarker(
+                [-15.783604818220592, -47.8991818107975],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_e6fdf86490af2b2e81b34021c1418c88);
+        
+    
+        var popup_fc92c89faad9b8e2bc120d4aeadd64f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_650e1c446782cf2dc784bf5c4a4a4e0e = $(`<div id="html_650e1c446782cf2dc784bf5c4a4a4e0e" style="width: 100.0%; height: 100.0%;">Estádio Nacional Mané Garrincha - 72788</div>`)[0];
+                popup_fc92c89faad9b8e2bc120d4aeadd64f0.setContent(html_650e1c446782cf2dc784bf5c4a4a4e0e);
+            
+        
+
+        circle_marker_e521bd34504ae10b74cb5f67dfcd8333.bindPopup(popup_fc92c89faad9b8e2bc120d4aeadd64f0)
+        ;
+
+        
+    
+    
+            var circle_marker_6f5346a63607bca62ea3b70323d6b4f4 = L.circleMarker(
+                [-23.60013425588797, -46.72008619039627],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_e6fdf86490af2b2e81b34021c1418c88);
+        
+    
+        var popup_a2216235274cfd53f8fb9f93ccda59e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63280014688199753f239feef3408055 = $(`<div id="html_63280014688199753f239feef3408055" style="width: 100.0%; height: 100.0%;">MorumBIS - 66975</div>`)[0];
+                popup_a2216235274cfd53f8fb9f93ccda59e7.setContent(html_63280014688199753f239feef3408055);
+            
+        
+
+        circle_marker_6f5346a63607bca62ea3b70323d6b4f4.bindPopup(popup_a2216235274cfd53f8fb9f93ccda59e7)
+        ;
+
+        
+    
+    
+            var circle_marker_550c9afaa9ba976379de49411e93df68 = L.circleMarker(
+                [-3.807320288034256, -38.52242730315555],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 10, "stroke": true, "weight": 1}
+            ).addTo(feature_group_e6fdf86490af2b2e81b34021c1418c88);
+        
+    
+        var popup_30adc053f1ed8f1fb5d1266cddf722b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f1f30ab891ae745604e9ef289b62d93 = $(`<div id="html_3f1f30ab891ae745604e9ef289b62d93" style="width: 100.0%; height: 100.0%;">Castelão - 63903</div>`)[0];
+                popup_30adc053f1ed8f1fb5d1266cddf722b5.setContent(html_3f1f30ab891ae745604e9ef289b62d93);
+            
+        
+
+        circle_marker_550c9afaa9ba976379de49411e93df68.bindPopup(popup_30adc053f1ed8f1fb5d1266cddf722b5)
+        ;
+
+        
+    
+    
+            feature_group_e6fdf86490af2b2e81b34021c1418c88.addTo(map_50aac412ac1734c5da2efdfcba132fc0);
+        
+    
+            var layer_control_7b7c25ec86697759bb8861493a176491_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f003328520ee57f2dfdaa47c1ec60d48,
+                },
+                overlays :  {
+                    "North America" : feature_group_8a2b4e0e86f4c736d8d4043fa2b345fc,
+                    "Europe" : feature_group_a393043abe84f9102e5e44e99bb97219,
+                    "Asia" : feature_group_221a31391aad026c7248de6e9e61b3f4,
+                    "Africa" : feature_group_710ce60eb9662af523e010dcdfc9b085,
+                    "Oceania" : feature_group_310695a7b25078d1cb8e29bc8fb3bf7a,
+                    "South America" : feature_group_e6fdf86490af2b2e81b34021c1418c88,
+                },
+            };
+            let layer_control_7b7c25ec86697759bb8861493a176491 = L.control.layers(
+                layer_control_7b7c25ec86697759bb8861493a176491_layers.base_layers,
+                layer_control_7b7c25ec86697759bb8861493a176491_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_50aac412ac1734c5da2efdfcba132fc0);
+
+        
+</script>
+</html>
